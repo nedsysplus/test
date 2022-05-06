@@ -14,6 +14,8 @@ CREATE TABLE [dbo].[member](
 	[firstName] [varchar](20) NULL,
 	[lastName] [varchar](30) NULL,
  CONSTRAINT [PK_member] PRIMARY KEY CLUSTERED 
+
+ 
 (
 	[memberid] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
