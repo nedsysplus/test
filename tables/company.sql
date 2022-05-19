@@ -15,6 +15,7 @@ CREATE TABLE [dbo].[member](
 	[firstName1] [varchar](20) NULL,
 	[firstName2] [varchar](20) NULL,
 	[lastName] [varchar](30) NULL,
+	[lastName1] [varchar](30) NULL,
  CONSTRAINT [PK_member] PRIMARY KEY CLUSTERED 
 
  
